@@ -1,0 +1,118 @@
+{
+  "class1_to_class2": {
+    "title": "ഒന്നാം ക്ലാസ്സിൽനിന്ന് രണ്ടാം ക്ലാസിലേക്ക് യോഗ്യത നേടിയ വർ",
+    "students": [
+      {
+        "name": "Nihal Mohammed"
+      },
+      {
+        "name": "Hiba"
+      },
+      {
+        "name": "Marha"
+      },
+      {
+        "name": "Miqthath"
+      },
+      {
+        "name": "Naila Mariyam"
+      },
+      {
+        "name": "Rihan"
+      },
+      {
+        "name": "Nazim Zai"
+      },
+      {
+        "name": "Mazin"
+      }
+    ]
+  },
+  "class2_to_class3": {
+    "title": "രണ്ടാം ക്ലാസിൽ നിന്നും മൂന്നാം ക്ലാസിലേക്ക് യോഗ്യത നേടിയവർ",
+    "students": [
+      {
+        "name": "Razwa Zainab"
+      },
+      {
+        "name": "Houra Binth Basheer"
+      },
+      {
+        "name": "Muhammed Shazil"
+      },
+      {
+        "name": "Fathimath Zulfa"
+      },
+      {
+        "name": "Alishba Emaan"
+      },
+      {
+        "name": "Nafeesa Farha"
+      },
+      {
+        "name": "Ahmed Faraz"
+      },
+      {
+        "name": "Adeeb Bin Ajmal"
+      },
+      {
+        "name": "Rabiya Sana"
+      }
+    ]
+  },
+  "class3_to_class4": {
+    "title": "മൂന്നാം ക്ലാസിൽ നിന്നും നാലാം ക്ലാസിലേക്ക് യോഗ്യത നേടിയവർ",
+    "students": [
+      {
+        "name": "Ruwa Fathima"
+      },
+      {
+        "name": "Hawwa Mohammed Faisal"
+      },
+      {
+        "name": "Hajara"
+      },
+      {
+        "name": "Aysha A.K"
+      }
+    ]
+  },
+  "class4_to_class5": {
+    "title": "നാലാം ക്ലാസിൽ നിന്നും അഞ്ചാം ക്ലാസിലേക്ക് യോഗ്യത നേടിയവർ",
+    "students": [
+      {
+        "name": "Faheema Abdul Rahiman"
+      },
+      {
+        "name": "Zihni"
+      },
+      {
+        "name": "Ikhlas"
+      },
+      {
+        "name": "Faizan Hamdan"
+      }
+    ]
+  },
+  "class5_to_class6": {
+    "title": "അഞ്ചാം ക്ലാസിൽ നിന്നും ആറാം ക്ലാസിലേക്ക് യോഗ്യത നേടിയവർ",
+    "students": []
+  },
+  "class6_to_class7": {
+    "title": "ആറാം ക്ലാസിൽ നിന്നും ഏഴാം ക്ലാസിലേക്ക് യോഗ്യത നേടിയവർ",
+    "students": [
+      {
+        "name": "Juwairiya"
+      }
+    ]
+  },
+  "class7_to_class8": {
+    "title": "ഏഴാം ക്ലാസിൽ നിന്നും എട്ടാം ക്ലാസിലേക്ക് യോഗ്യത നേടിയവർ",
+    "students": [
+      {
+        "name": "Aysha Nourin"
+      }
+    ]
+  }
+}
+
