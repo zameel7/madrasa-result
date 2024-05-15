@@ -153,19 +153,7 @@
         }
 
         // Initially load Class 1 to Class 2 details
-        toggleClass('class1_to_class2');
-
-        // If any query string is present, then load the class details based on that
-        const urlParams = new URLSearchParams(window.location.search);
-        const className = urlParams.get('class');
-        console.log(className); // Log the query parameter value
-        if (className) {
-            const button = document.querySelector(`#classToggle button[data-class="${className}"]`);
-            console.log(button); // Log the button element
-            if (button) {
-                toggleClass(className, button);
-            }
-        }
+        toggleClassMob('class1_to_class2');
     </script>
 </body>
 </html>
