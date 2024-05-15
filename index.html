@@ -53,8 +53,22 @@
             <div class="card-body text-center">
                 <h3>Class Wise Results</h3>
                 
-                <!-- Toggle buttons for classes -->
-                <div class="btn-group my-3" id="classToggle">
+                <!-- Select dropdown for classes (mobile) -->
+                <div class="form-group my-3 d-md-none">
+                    <label for="classSelect">Select Class:</label>
+                    <select class="form-control" id="classSelect" onchange="toggleClassMob(this.value)">
+                        <option value="class1_to_class2" onclick="toggleClassMob('class1_to_class2')">Class 1</option>
+                        <option value="class2_to_class3" onclick="toggleClassMob('class2_to_class3')">Class 2</option>
+                        <option value="class3_to_class4" onclick="toggleClassMob('class3_to_class4')">Class 3</option>
+                        <option value="class4_to_class5" onclick="toggleClassMob('class4_to_class5')">Class 4</option>
+                        <option value="class5_to_class6" onclick="toggleClassMob('class5_to_class6')">Class 5</option>
+                        <option value="class6_to_class7" onclick="toggleClassMob('class6_to_class7')">Class 6</option>
+                        <option value="class7_to_class8" onclick="toggleClassMob('class7_to_class8')">Class 7</option>
+                    </select>
+                </div>
+
+                <!-- Toggle buttons for classes (desktop) -->
+                <div class="btn-group my-3 d-none d-md-flex" id="classToggle">
                     <button class="mx-2 btn btn-outline-primary active" data-class="class1_to_class2" onclick="toggleClass('class1_to_class2', this)">Class 1</button>
                     <button class="mx-2 btn btn-outline-primary" data-class="class2_to_class3" onclick="toggleClass('class2_to_class3', this)">Class 2</button>
                     <button class="mx-2 btn btn-outline-primary" data-class="class3_to_class4" onclick="toggleClass('class3_to_class4', this)">Class 3</button>
@@ -85,6 +99,29 @@
     </div>
     
     <script>
+        function toggleClassMob(className) {
+            // Fetch JSON data and update table based on selected class
+            fetch('data.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Set class title
+                    document.getElementById('classTitle').innerText = data[className].title;
+
+                    // Clear previous class details
+                    document.getElementById('classDetails').innerHTML = '';
+
+                    // Fill class details
+                    data[className].students.forEach((student, index) => {
+                        document.getElementById('classDetails').innerHTML += `
+                            <tr>
+                                <td>${index + 1}</td>
+                                <td>${student.name}</td>
+                            </tr>
+                        `;
+                    });
+                });
+        }
+
         function toggleClass(className, button) {
             // Remove active class from all buttons
             var buttons = document.querySelectorAll('#classToggle button');
