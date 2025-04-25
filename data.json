@@ -2,97 +2,59 @@
   "class1_to_class2": {
     "title": "ഒന്നാം ക്ലാസ്സിൽനിന്ന് രണ്ടാം ക്ലാസിലേക്ക് യോഗ്യത നേടിയവർ",
     "students": [
-      {
-        "name": "Nihal Mohammed"
-      },
-      {
-        "name": "Hiba"
-      },
-      {
-        "name": "Marha"
-      },
-      {
-        "name": "Miqthath"
-      },
-      {
-        "name": "Naila Mariyam"
-      },
-      {
-        "name": "Rihan"
-      },
-      {
-        "name": "Nazim Zai"
-      },
-      {
-        "name": "Mazin"
-      }
+      {"name": "Abdullah Hassan"},
+      {"name": "Adhil Rahman"},
+      {"name": "Arban T.P"},
+      {"name": "Shazil Ibrahim"},
+      {"name": "Mehzan Abdullah"},
+      {"name": "Mohammed Is'haq"},
+      {"name": "Khadeejath Jaza"},
+      {"name": "Nafeesath Maheeba"}
     ]
   },
   "class2_to_class3": {
     "title": "രണ്ടാം ക്ലാസിൽ നിന്നും മൂന്നാം ക്ലാസിലേക്ക് യോഗ്യത നേടിയവർ",
     "students": [
-      {
-        "name": "Razwa Zainab"
-      },
-      {
-        "name": "Houra Binth Basheer"
-      },
-      {
-        "name": "Muhammed Shazil"
-      },
-      {
-        "name": "Fathimath Zulfa"
-      },
-      {
-        "name": "Alishba Emaan"
-      },
-      {
-        "name": "Nafeesa Farha"
-      },
-      {
-        "name": "Ahmed Faraz"
-      },
-      {
-        "name": "Adeeb Bin Ajmal"
-      },
-      {
-        "name": "Rabiya Sana"
-      }
+      {"name": "Shuhaib Abdurahman"},
+      {"name": "Hiba Abdul jabbar"},
+      {"name": "Fadil Abdulla"},
+      {"name": "Aysha Ashraf"},
+      {"name": "Muhammed Nihal"},
+      {"name": "Afa Nafeesa"},
+      {"name": "Miqdad Bin Shihab"},
+      {"name": "Muhammed Waleed"},
+      {"name": "Mariyam Marha"},
+      {"name": "Fathimath Shaizana"},
+      {"name": "Farzana Maryam"},
+      {"name": "Juma"},
+      {"name": "Muhammed Rihan"}
     ]
   },
   "class3_to_class4": {
     "title": "മൂന്നാം ക്ലാസിൽ നിന്നും നാലാം ക്ലാസിലേക്ക് യോഗ്യത നേടിയവർ",
     "students": [
-      {
-        "name": "Ruwa Fathima"
-      },
-      {
-        "name": "Hawwa Mohammed Faisal"
-      },
-      {
-        "name": "Hajara"
-      },
-      {
-        "name": "Aysha A.K"
-      }
+      {"name": "Razwa Zainab"},
+      {"name": "Rabiya Sana"},
+      {"name": "Ahmed Faraz"},
+      {"name": "Shakir Swalih"},
+      {"name": "Fathima Abdul Rahman"},
+      {"name": "Mohammed Shazil"},
+      {"name": "Fathima Shiza"}
     ]
   },
   "class4_to_class5": {
     "title": "നാലാം ക്ലാസിൽ നിന്നും അഞ്ചാം ക്ലാസിലേക്ക് യോഗ്യത നേടിയവർ",
     "students": [
-      {
-        "name": "Faheema Abdul Rahiman"
-      },
-      {
-        "name": "Zihni"
-      },
-      {
-        "name": "Ikhlas"
-      },
-      {
-        "name": "Faizan Hamdan"
-      },
-      {"name":"Hamdan"}
+      {"name": "Hawwa mohammaed faisal"},
+      {"name": "Ruwa fathima"},
+      {"name": "Rahfath Rima"},
+      {"name": "Mohammaed Fouzan"},
+      {"name": "Shizaan Abdulla. S"},
+      {"name": "Aysha A. K"},
+      {"name": "Ayshath Shehzana"},
+      {"name": "Arfaan"},
+      {"name": "Aysha.B"},
+      {"name": "kaleel Ibrahim"}
     ]
   },
   "class5_to_class6": {
@@ -102,18 +64,21 @@
   "class6_to_class7": {
     "title": "ആറാം ക്ലാസിൽ നിന്നും ഏഴാം ക്ലാസിലേക്ക് യോഗ്യത നേടിയവർ",
     "students": [
-      {
-        "name": "Juwairiya"
-      }
+      {"name": "Mohammad Ashreed"},
+      {"name": "Mohammad Mushthaq"},
+      {"name": "Shazih"},
+      {"name": "Fathima najiya"},
+      {"name": "Aysha mehvish"}
     ]
   },
   "class7_to_class8": {
     "title": "ഏഴാം ക്ലാസിൽ നിന്നും എട്ടാം ക്ലാസിലേക്ക് യോഗ്യത നേടിയവർ",
     "students": [
-      {
-        "name": "Aysha Nourin"
-      }
+      {"name": "Hashir Abdul Jabbar"},
+      {"name": "Juwairiya"},
+      {"name": "Fathima"},
+      {"name": "Fathimath Husna"},
+      {"name": "Zainabath Nasreen"}
     ]
   }
 }
-
